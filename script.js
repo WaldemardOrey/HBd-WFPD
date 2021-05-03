@@ -9,8 +9,10 @@ const container2 = document.getElementById("container");
 
 
 
-ela.addEventListener("click",changetext()) ;
-    
+ela.addEventListener("click",() => {
+
+setTimeout(changetext(),3000) ;
+    });
     
     function changetext(){
     
